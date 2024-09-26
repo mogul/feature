@@ -27,7 +27,7 @@ Add a `.bpmnlintrc` file in project root directory. Example would be like this
 ```
 For more information please visit [bpmnlint page](https://github.com/bpmn-io/bpmnlint)
 
-You can add this in `pre-commit` hook comfiguration file (`.pre-commit-config.yaml`)
+You can add this in `pre-commit` hook configuration file (`.pre-commit-config.yaml`)
 ``` yaml
   - repo: local
     hooks:
@@ -64,7 +64,7 @@ Add a `.dmnlintrc` file in project root directory. Example would be like this
 ```
 For more information please visit [dmntlint page](https://github.com/bpmn-io/dmnlint)
 
-You can add this in `pre-commit` hook comfiguration file (`.pre-commit-config.yaml`)
+You can add this in `pre-commit` hook configuration file (`.pre-commit-config.yaml`)
 ``` yaml
   - repo: local
       - id: dmn
